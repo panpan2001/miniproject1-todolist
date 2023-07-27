@@ -1,0 +1,8 @@
+@import '../../index.css';
+
+.login-layout{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}

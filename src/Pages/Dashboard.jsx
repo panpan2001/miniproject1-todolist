@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { Suspense } from 'react'
+import Loading from './Loading'
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <Suspense fallback={<Loading />}>   
+     <div>Dashboard</div>
+
+        </Suspense>
   )
 }
 

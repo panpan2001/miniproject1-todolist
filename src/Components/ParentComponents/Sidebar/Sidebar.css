@@ -1,0 +1,6 @@
+@import '../../../index.css';
+
+.menu{
+    border-right: 1px solid #d1cfcf;
+    min-height: 80vh;
+}

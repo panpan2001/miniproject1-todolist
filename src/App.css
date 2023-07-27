@@ -1,5 +1,6 @@
 @import './index.css';
 
 .App{
-  --font-family: var(--font-family-app);
+  font-family: var(--font-family-app);
+  min-height: 80vh;
  }
